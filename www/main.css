@@ -3,14 +3,17 @@ body {
 }
 
 #content {
-    vertical-align: middle;
+    width: 400px;
+    height: 500px;
+    background-color: red;
+
     position: absolute;
-    width: 500px;
-    height: 200px;
-    z-index: 15;
-    top: 30%;
-    left: 50%;
-    margin: -100px 0 0 -250px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
 }
 
 .text {
@@ -18,7 +21,7 @@ body {
     font-size: 20pt;
     text-align: center;
     color: white;
-	font-weight:bold;
+	font-weight: bold;
 }
 
 #button_main {
