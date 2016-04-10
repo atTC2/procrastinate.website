@@ -23,10 +23,15 @@
         
         <title>Procrastinate - The Website</title>
         
+        <link type="text/css" rel="stylesheet" href="main.css"/>
         <script src="jquery.min.js"></script>
         <script src="procrastinate.js"></script>
     </head>
-    <body>
-        <script> procrastinate(); </script>
+    <body onload="loadPlaces();">
+        
+        <div id="content" class="text">
+            <h1>Ready to Procrastinate?</h1>
+            <button id="button_main" class="text" onclick="procrastinate();">let's go!</button>
+        </div>
     </body>
 </html>
