@@ -18,7 +18,7 @@ body {
 
 .text {
     font-family: Impact, Impact5, Charcoal6, sans-serif;
-    font-size: 20pt;
+    font-size: 24pt;
     text-align: center;
     color: white;
 	font-weight: bold;
@@ -64,3 +64,12 @@ body {
 	top:1px;
 }
 
+@media (max-width: 1000px) {
+    .text {
+        font-size: 16pt;
+    }
+    
+    #button_main {
+        font-size: 20pt;
+    }
+}
