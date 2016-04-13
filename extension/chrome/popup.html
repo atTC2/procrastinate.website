@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
+        <link type="text/css" rel="stylesheet" href="http://procrastinate.website/main.css"/>
+        <script> var onExtension = true; </script>
+<!--        Deal with scripts:-->
+        <script src="http://procrastinate.website/jquery.min.js"></script>
+        <script src="http://procrastinate.website/procrastinate.js"></script>
 	</head>
-	<body>
-		<iframe src="http://procrastinate.website" width="100%" height="100%" frameborder="0"></iframe>
+	<body onload="loadPlaces();">
+        <div id="content" class="text">
+            <h1>Ready to Procrastinate?</h1>
+            <button id="button_main" class="text" onclick="procrastinateFromExtension();">let's go!</button>
+        </div>
 	</body>
 </html>

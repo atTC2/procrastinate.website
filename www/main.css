@@ -33,9 +33,26 @@ body {
     bottom: 9px;
 }
 
+#footer {
+    font-family: sans-serif;
+    font-size: 12pt;
+    left: 10px;
+    position: fixed;
+    bottom: 8px;
+}
+
+#tweet_button {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+}
+
 a {
-    padding: 10px;
     color: white;
+}
+
+#extension a {
+    padding: 10px;
     background: darkred;
 }
 

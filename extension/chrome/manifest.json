@@ -10,7 +10,7 @@
   },
   
   "content_scripts": [ {
-    "js": [  "jquery.min.js" ],
+    "js": [ "" ],
     "matches": [ "http://*/*", "https://*/*"]
   }]
 }
