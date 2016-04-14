@@ -47,7 +47,7 @@
         <script src="jquery.min.js"></script>
         <script src="procrastinate.js"></script>
         
-        <?php if(isset($_POST["go"]) and $_POST["go"] === true) { ?>
+        <?php if(isset($_GET["go"]) and $_GET["go"] === true) { ?>
         <script> procrastinate(); </script>
     </head>
         <?php } else { ?>
