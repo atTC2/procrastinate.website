@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd /home/ec2-user/procrastinate.website
 git pull
 sudo rm -rf /var/www/html
 sudo mkdir /var/www/html
