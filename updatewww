@@ -4,4 +4,4 @@ git pull
 sudo rm -rf /var/www/html
 sudo mkdir /var/www/html
 sudo cp -r /home/ec2-user/procrastinate.website/www/* /var/www/html/
-echo "updated /var/www/html"
+echo "Updated /var/www/html"
