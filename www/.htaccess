@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule *(go|GO)$ ./index.php?go=true [L,NC]

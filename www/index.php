@@ -46,6 +46,12 @@
         
         <script src="jquery.min.js"></script>
         <script src="procrastinate.js"></script>
+        
+        <?php if(isset($_POST["go"]) and $_POST["go"] === true) { ?>
+        <script> procrastinate(); </script>
+    </head>
+        <?php } else { ?>
+        
     </head>
     <body onload="loadPlaces();">
         
@@ -67,4 +73,5 @@
         </div>
 -->
     </body>
+    <?php } ?>
 </html>
