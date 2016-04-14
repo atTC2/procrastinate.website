@@ -46,14 +46,12 @@
         
         <script src="jquery.min.js"></script>
         <script src="procrastinate.js"></script>
-        
-        <?php if(isset($_GET["go"]) and $_GET["go"] === true) { ?>
-        <script> procrastinate(); </script>
-    </head>
-        <?php } else { ?>
-        
     </head>
     <body onload="loadPlaces();">
+        
+        <?php if(isset($_GET["go"])) { ?>
+        <script> procrastinate(); </script>
+        <?php } else { ?>
         
         <div id="content" class="text">
             <h1>Ready to Procrastinate?</h1>
@@ -72,6 +70,6 @@
             <a href="procrastinate.extension.crx">Get the extension! (Chrome only)</a>
         </div>
 -->
+        <?php } ?>
     </body>
-    <?php } ?>
 </html>
