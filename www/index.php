@@ -58,6 +58,8 @@
             <button id="button_main" class="text" onclick="procrastinate();">let's go!</button>
         </div>
         
+        <div id="bookmark-this"><h4>Tip: bookmark 'procrastinate.website/go' to auto-procrastinate!</h4></div>
+        
         <div id="footer" class="text">
             Made by <a href="https://twitter.com/TomBClarke/">@TomBClarke</a>
         </div>
