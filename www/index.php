@@ -64,7 +64,7 @@
             Made by <a href="https://twitter.com/TomBClarke/">@TomBClarke</a>
         </div>
         <div id="tweet_button">
-            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=The%20procrastinate.website%21&url=http://procrastinate.website&via=TomBClarke"></a>
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=The%20procrastinate.website%21&hashtags=TheProcrastinateWebsite&url=http://procrastinate.website&via=TomBClarke"></a>
             <script>twttr.widgets.load();</script>
         </div>
 <!--
