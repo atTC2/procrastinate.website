@@ -4,7 +4,7 @@ body {
 
 #content {
     width: 400px;
-    height: 500px;
+    height: 60%;
     background-color: red;
 
     position: absolute;
@@ -121,6 +121,10 @@ a {
 @media (max-width: 1000px) {
     .text {
         font-size: 16pt;
+    }
+    
+    #content {
+        height: 100%;
     }
     
     #button_main {
