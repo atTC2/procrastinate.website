@@ -3,7 +3,5 @@
 cd /home/ec2-user/procrastinate.website
 sudo git pull
 sudo rm -rf /var/www/html
-sudo mkdir /var/www/html
-sudo cp -R /home/ec2-user/procrastinate.website/www/* /var/www/html/
-sudo cp www/.htaccess /var/www/html/.htaccess
+sudo cp -r /home/ec2-user/procrastinate.website/www /var/www/html
 echo "Updated /var/www/html"
