@@ -50,6 +50,7 @@
     <body onload="loadPlaces();">
         
         <?php if(isset($_GET["go"])) { ?>
+        <div id="content" class="text"><h1>Procrastinating...</h1></div>
         <script> procrastinate(); </script>
         <?php } else { ?>
         
