@@ -44,10 +44,9 @@
             }(document, "script", "twitter-wjs"));
         </script>
         
-        <script src="jquery.min.js"></script>
         <script src="procrastinate.js"></script>
     </head>
-    <body onload="loadPlaces();">
+    <body>
         
         <?php if(isset($_GET["go"])) { ?>
         <div id="content" class="text"><h1>Procrastinating...</h1></div>
