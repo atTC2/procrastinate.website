@@ -11,12 +11,12 @@
         <meta property="og:type"          content="website" />
         <meta property="og:title"         content="Procrastinate - The Website" />
         <meta property="og:description"   content="Want to procrastinate? This is the website for you!" />
-        <meta property="og:image"         content="cover.png" />
+        <meta property="og:image"         content="http://procrastinate.website/cover.png" />
         <meta name="url"                  content="http://procrastinate.website/" />
         <meta name="type"                 content="website" />
         <meta name="title"                content="Procrastinate - The Website" />
         <meta name="description"          content="Want to procrastinate? This is the website for you!" />
-        <meta name="image"                content="cover.png" />
+        <meta name="image"                content="http://procrastinate.website/cover.png" />
         <meta name="keywords"             content="procrastinate, procrastination, procrastinate website, procrastination website, website, the procrastinate website">
         
         <link rel="icon" type="img/ico" href="favicon.ico">
