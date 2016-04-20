@@ -42,6 +42,9 @@ var places = [
 // Let's the procrastination commence.
 function procrastinate() {
     var cookie = document.cookie;
+    var placesBeen = [];
+    
+    // If the cookie was set, remove places the user has already been to.
     if (cookie !== "") {
         placesBeen = JSON.parse(cookie.split(cookieTitle)[1]);
         for (var i = 0; i < placesBeen.length; i++) {
@@ -51,13 +54,16 @@ function procrastinate() {
         }
     }
     
+    // Choose a new place to procrastinate.
     var indexChosen = Math.floor(Math.random() * places.length);
     var nextPlace = places[indexChosen];
     
+    // Add the new place to the recently visited list and save it.
     if (placesBeen.length > rememberHistoryLength)
         placesBeen.shift();
     placesBeen.push(nextPlace);
     document.cookie = cookieTitle + JSON.stringify(placesBeen) + ";";
     
+    // Procrastinate!
     window.location.href = nextPlace;
 }
