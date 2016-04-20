@@ -61,7 +61,7 @@
         <div id="bookmark-this"><h4>Tip: bookmark 'procrastinate.website/go' to auto-procrastinate!</h4></div>
         
         <div id="footer" class="text">
-            Made by <a href="https://twitter.com/TomBClarke/">@TomBClarke</a>
+            Made by <a href="https://twitter.com/TomBClarke/">@TomBClarke</a>, <a href="about.html">About</a>
         </div>
         <div id="tweet_button">
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=The%20procrastinate.website%21&hashtags=TheProcrastinateWebsite&url=http://procrastinate.website&via=TomBClarke"></a>
