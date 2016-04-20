@@ -47,10 +47,11 @@
         <script src="procrastinate.js"></script>
     </head>
     <body>
-        
         <?php if(isset($_GET["go"])) { ?>
+        
         <div id="content" class="text"><h1>Procrastinating...</h1></div>
         <script> procrastinate(); </script>
+        
         <?php } else { ?>
         
         <div id="content" class="text">
@@ -63,15 +64,12 @@
         <div id="footer" class="text">
             Made by <a href="https://twitter.com/TomBClarke/">@TomBClarke</a>, <a href="about.html">About</a>
         </div>
+        
         <div id="tweet_button">
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=The%20procrastinate.website%21&hashtags=TheProcrastinateWebsite&url=http://procrastinate.website&via=TomBClarke"></a>
             <script>twttr.widgets.load();</script>
         </div>
-<!--
-        <div id="extension" class="text">
-            <a href="procrastinate.extension.crx">Get the extension! (Chrome only)</a>
-        </div>
--->
+        
         <?php } ?>
     </body>
 </html>

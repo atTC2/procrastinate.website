@@ -73,11 +73,6 @@ a {
     color: white;
 }
 
-#extension a {
-    padding: 10px;
-    background: darkred;
-}
-
 #button_main {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -129,10 +124,6 @@ a {
     
     #button_main {
         font-size: 20pt;
-    }
-    
-    #extension {
-        display: none;
     }
     
     #bookmark-this {
