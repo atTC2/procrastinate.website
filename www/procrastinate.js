@@ -4,11 +4,12 @@ var rememberHistoryLength = 10;
 // The name of the cookie
 var cookieTitle = "places=";
 
+
 // All the places to procrastinate.
 var places = [
     "https://www.youtube.com/watch?v=QH2-TGUlwu4",
     "https://www.youtube.com/watch?v=8DbfUvcD6tc",
-    "https://www.youtube.com/watch?v=OMg3epr53Ns",
+    "https://www.youtube.com/watch?v=IfeyUGZt8nk",
     "https://www.youtube.com/watch?v=sCNrK-n68CM",
     "https://www.youtube.com/watch?v=F-S0T4xTdLY",
     "https://www.youtube.com/watch?v=-T7gBgKOnWQ",
