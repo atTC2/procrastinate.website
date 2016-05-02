@@ -23,6 +23,7 @@ var places = [
     "https://www.youtube.com/watch?v=UD-MkihnOXg",
     "https://www.youtube.com/watch?v=a-xWhG4UU_Y",
     "https://www.youtube.com/watch?v=Y6ljFaKRTrI",
+    "https://www.facebook.com/ads/preferences/",
     "http://belarr.com/bakercat/",
     "http://ostagram.ru/",
     "http://labs.majestic.com/2015/mracing/",
