@@ -42,7 +42,8 @@ var places = [
     "http://agar.io/",
     "http://www.neopets.com/games/play_flash.phtml?game_id=999&r=7872676&&width=909&height=683&quality=high",
     "http://trumpdonald.org/",
-    "http://slither.io/"
+    "http://slither.io/",
+    "http://www.findtheinvisiblecow.com/"
 ];
 
 // Let's the procrastination commence.
